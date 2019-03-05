@@ -1,7 +1,4 @@
 # Demo script for ClimaCell API v2.
-# To be able to run this script you need enterprise level license key. You can obtain
-# https://developer.climacell.co/dashboard/token
-#
 
 import requests
 import random
@@ -9,9 +6,6 @@ import string
 import os
 
 API_BASE_URL = 'https://api2.climacell.co/v2/'
-
-# before running this script export your API_KEY like so:
-# export CC_API_KEY="YOUR API KEY"
 
 API_TOKEN = ""
 if "CC_API_KEY" in os.environ:
