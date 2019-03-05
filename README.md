@@ -1,10 +1,10 @@
 # climacell-api-samples
 Demonstrates usage of Climacell API
 
-To be able to run this script you need enterprise level license key.
+To be able to run sample scripts you need an enterprise level license key.
 You can obtain it at https://developer.climacell.co/dashboard/token
 
-Then export your API_KEY like so (on *nix):
+Then export your API key like so (on *nix):
 ```sh
 export CC_API_KEY="YOUR API KEY"
 ```
